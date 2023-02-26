@@ -122,7 +122,15 @@ button {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
+}
 
+a:link {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: hsl(156, 37%, 30%)
 }
 
 .attribution {
